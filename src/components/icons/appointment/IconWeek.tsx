@@ -1,0 +1,89 @@
+import React from "react";
+
+const IconWeek = (props:JSX.IntrinsicElements['svg']) => {
+  return (
+    <svg
+      width="16"
+      height="20"
+      viewBox="0 0 16 17"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+      {...props}
+    >
+      <rect
+        x="2"
+        y="2.5"
+        width="2.4"
+        height="2.4"
+        rx="0.666667"
+        fill="currentColor"
+      />
+      <rect
+        x="2"
+        y="7.29997"
+        width="2.4"
+        height="2.4"
+        rx="0.666667"
+        fill="currentColor"
+      />
+      <rect
+        x="2"
+        y="12.1001"
+        width="2.4"
+        height="2.4"
+        rx="0.666667"
+        fill="currentColor"
+      />
+      <rect
+        x="6.80078"
+        y="2.5"
+        width="2.4"
+        height="2.4"
+        rx="0.666667"
+        fill="currentColor"
+      />
+      <rect
+        x="6.80078"
+        y="7.29997"
+        width="2.4"
+        height="2.4"
+        rx="0.666667"
+        fill="currentColor"
+      />
+      <rect
+        x="6.80078"
+        y="12.1001"
+        width="2.4"
+        height="2.4"
+        rx="0.666667"
+        fill="currentColor"
+      />
+      <rect
+        x="11.6006"
+        y="2.5"
+        width="2.4"
+        height="2.4"
+        rx="0.666667"
+        fill="currentColor"
+      />
+      <rect
+        x="11.6006"
+        y="7.29997"
+        width="2.4"
+        height="2.4"
+        rx="0.666667"
+        fill="currentColor"
+      />
+      <rect
+        x="11.6006"
+        y="12.1001"
+        width="2.4"
+        height="2.4"
+        rx="0.666667"
+        fill="currentColor"
+      />
+    </svg>
+  );
+};
+
+export default IconWeek;

@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply font-normal bg-gray_FAFBFC dark:bg-black_282A36 text-black_242731 dark:text-white text-sm;
+  }
+}
+
+@layer components {
+ 
+  .container {
+    max-width: 1140px;
+  }
+}
+
+@layer utilities {
+  input {
+    font: inherit;
+  }
+}
